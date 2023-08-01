@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roxy V2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="display">
+			<input type="text" id="input" disabled>
+		</div>
+		<div class="buttons">
+			<button onchange="clearInput()">C</button>
+			<button onclick="backspace()">CE</button>
+			<button onclick="addToInput('/')">÷</button>
+			<button onclick="addToInput('*')">×</button>
+			<button onclick="addToInput('7')">7</button>
+			<button onclick="addToInput('8')">8</button>
+			<button onclick="addToInput('9')">9</button>
+			<button onclick="addToInput('-')"> - </button>
+			<button onclick="addToInput('4')">4</button>
+			<button onclick="addToInput('5')">5</button>
+			<button onclick="addToInput('6')">6</button>
+			<button onclick="addToInput('+')">+</button>
+			<button onclick="addToInput('1')">1</button>
+			<button onclick="addToInput('2')">2</button>
+			<button onclick="addToInput('3')">3</button>
+			<button onclick="calculate()"> = </button>
+			<button onclick="addToInput('0')">0</button>
+			<button onclick="addToInput('.')">.</button>
+		</div>
+	</div>
+	<ul></ul>
+	
+
+	<script src="calculadora.js"></script>
+</body>
+</html>
